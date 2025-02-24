@@ -67,9 +67,17 @@ public class Variables {
         /****************Reference********************/
         String name = "Kavya jain";
         String food = "Pizza";
+        String email = "fake11@gmail.com";
+        String car = "Mustang";
+        String color = "red";
 
         System.out.println("Hello " + name);
         System.out.println(food);
+        System.out.println(email);
+        System.out.println(car);
+        System.out.println(color);
+
+        //now use all the above and make sentences 
 
     }
 }
