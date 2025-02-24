@@ -20,12 +20,56 @@ public class Variables {
         // 1. declaration 
         // 2. assignment 
 
+        /****************Primitive ********************/
         int age = 19;
         int year = 2025;
         int quantity = 5;
 
+        double price = 19.5;
+        double price1 = 19;
+        double gpa = 9.5;
+        double temperature = -12.5;
+
+        char grade = 'A';
+        char symbol ='!';
+        char currency = '$';
+
+        boolean isStudent = true;           //camelCase in java two words first one is lower case and other is upper
+        boolean forSale = false;
+        boolean isOnline = true;
+
         System.out.println(age);
         System.out.println("The year is " + year);
         System.out.println(quantity);
+
+        System.out.println(price);
+        System.out.println(gpa);
+        System.out.println(temperature);
+        System.out.println(price1);
+
+        System.out.println(grade);
+        System.out.println(symbol);
+        System.out.println(currency);
+
+        System.out.println(isStudent);
+        System.out.println(forSale);
+        System.out.println(isOnline);       //boolean more than displaying is used internally within the program
+
+        // One use of boolean is use of if statements 
+
+        if (isStudent)
+        {
+            System.out.println("You are a student");
+        }else{
+            System.out.println("You are an adult");
+        }
+
+        /****************Reference********************/
+        String name = "Kavya jain";
+        String food = "Pizza";
+
+        System.out.println("Hello " + name);
+        System.out.println(food);
+
     }
 }
